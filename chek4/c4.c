@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <locale.h>
 
-int main() {
+int main() 
+{
+
+    setlocale(LC_ALL, "RUS");
     
     const double LIGHTYEAR = 63241.1; 
 
